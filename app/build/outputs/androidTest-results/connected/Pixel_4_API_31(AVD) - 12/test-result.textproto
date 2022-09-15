@@ -1,0 +1,73 @@
+# 2022-09-13T16:27:22.648Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "OrderFunctionalityTests"
+    test_package: "com.example.lunchtray"
+    test_method: "radio_buttons_update_accompaniment_menu_subtotal"
+    start_time {
+      seconds: 1663086438
+      nanos: 693000000
+    }
+    end_time {
+      seconds: 1663086441
+      nanos: 155000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\nGot: view.getText() was \"Subtotal: $1.50\"\nView Details: TextView{id=2131231217, res-name=subtotal, visibility=VISIBLE, width=342, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ccace2a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=694.0, y=813.0, text=Subtotal: $1.50, input-type=0, ime-target=false, has-links=false}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1724)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.lunchtray.OrderFunctionalityTests.radio_buttons_update_accompaniment_menu_subtotal(OrderFunctionalityTests.kt:121)\n... 27 trimmed\nCaused by: junit.framework.AssertionFailedError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\nGot: view.getText() was \"Subtotal: $1.50\"\nView Details: TextView{id=2131231217, res-name=subtotal, visibility=VISIBLE, width=342, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ccace2a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=694.0, y=813.0, text=Subtotal: $1.50, input-type=0, ime-target=false, has-links=false}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loopOnce(Looper.java:201)\nat android.os.Looper.loop(Looper.java:288)\nat android.app.ActivityThread.main(ActivityThread.java:7839)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+    error_type: "junit.framework.AssertionFailedError"
+    stack_trace: "androidx.test.espresso.base.DefaultFailureHandler$AssertionFailedWithCauseError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\nGot: view.getText() was \"Subtotal: $1.50\"\nView Details: TextView{id=2131231217, res-name=subtotal, visibility=VISIBLE, width=342, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ccace2a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=694.0, y=813.0, text=Subtotal: $1.50, input-type=0, ime-target=false, has-links=false}\n\nat dalvik.system.VMStack.getThreadStackTrace(Native Method)\nat java.lang.Thread.getStackTrace(Thread.java:1724)\nat androidx.test.espresso.base.DefaultFailureHandler.getUserFriendlyError(DefaultFailureHandler.java:12)\nat androidx.test.espresso.base.DefaultFailureHandler.handle(DefaultFailureHandler.java:7)\nat androidx.test.espresso.ViewInteraction.waitForAndHandleInteractionResults(ViewInteraction.java:5)\nat androidx.test.espresso.ViewInteraction.check(ViewInteraction.java:12)\nat com.example.lunchtray.OrderFunctionalityTests.radio_buttons_update_accompaniment_menu_subtotal(OrderFunctionalityTests.kt:121)\n... 27 trimmed\nCaused by: junit.framework.AssertionFailedError: \'an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\' doesn\'t match the selected view.\nExpected: an instance of android.widget.TextView and view.getText() with or without transformation to match: a string containing \"Subtotal: $1.00\"\nGot: view.getText() was \"Subtotal: $1.50\"\nView Details: TextView{id=2131231217, res-name=subtotal, visibility=VISIBLE, width=342, height=67, has-focus=false, has-focusable=false, has-window-focus=true, is-clickable=false, is-enabled=true, is-focused=false, is-focusable=false, is-layout-requested=false, is-selected=false, layout-params=androidx.constraintlayout.widget.ConstraintLayout$LayoutParams@ccace2a, tag=null, root-is-layout-requested=false, has-input-connection=false, x=694.0, y=813.0, text=Subtotal: $1.50, input-type=0, ime-target=false, has-links=false}\n\nat androidx.test.espresso.matcher.ViewMatchers.assertThat(ViewMatchers.java:16)\nat androidx.test.espresso.assertion.ViewAssertions$MatchesViewAssertion.check(ViewAssertions.java:11)\nat androidx.test.espresso.ViewInteraction$SingleExecutionViewAssertion.check(ViewInteraction.java:2)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:12)\nat androidx.test.espresso.ViewInteraction$2.call(ViewInteraction.java:1)\nat java.util.concurrent.FutureTask.run(FutureTask.java:266)\nat android.os.Handler.handleCallback(Handler.java:938)\nat android.os.Handler.dispatchMessage(Handler.java:99)\nat android.os.Looper.loopOnce(Looper.java:201)\nat android.os.Looper.loop(Looper.java:288)\nat android.app.ActivityThread.main(ActivityThread.java:7839)\nat java.lang.reflect.Method.invoke(Native Method)\nat com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:548)\nat com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1003)"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Lenovo\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_31(AVD) - 12\\logcat-com.example.lunchtray.OrderFunctionalityTests-radio_buttons_update_accompaniment_menu_subtotal.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Lenovo\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_31(AVD) - 12\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Lenovo\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_31(AVD) - 12\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Lenovo\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_31(AVD) - 12\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Lenovo\\AndroidStudioProjects\\android-basics-kotlin-lunch-tray-app-main\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_4_API_31(AVD) - 12\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
